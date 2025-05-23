@@ -136,3 +136,93 @@ let storeDescription = {
     open: true
 };
 console.log((storeDescription(employees[1])), + anal); 
+
+
+const book = {
+    title: 'Властелин колец'
+};
+book['Автор'] = 'Дж. Р. Р. Толкин';
+book['Жанр'] = ['Фентези', 'Приключение'];
+book['Издатель'] = {
+    name: 'ACT',
+    year: 1954
+};
+console.log(book);
+
+
+let age = 'Тридцать';
+const name = "Алекс";
+let isStudent = true;
+
+console.log(typeof age);
+console.log(typeof name);
+console.log(typeof isStudent);
+
+const age = 'Двадцать девять';
+const name = 'Рамазан';
+const loveCoding = true;
+
+console.log(typeof age);
+console.log(typeof name);
+console.log(typeof loveCoding);
+
+if (loveCoding) {true;
+    console.log('Рамазан любит программировать');
+} else {
+    console.log('Рамазан пока не уверен на счет программирования');
+}
+
+
+const objA = {
+    a: 10,
+    b: true
+};
+
+objA.c = false;
+
+console.log(objA);
+
+const copyOfObjA = objA;
+
+copyOfObjA.a = 20;
+
+console.log(objA);
+
+function a() {
+    console.log("Hellow There")
+};
+
+const a = () => {
+    console.log("Hey There")
+}
+a()
+
+let x=2, y=3;
+
+const plus1 = x => {const result = x + 1;
+console.log(result);
+};
+plus1(y);
+
+const square = x => x * x;
+
+plus1(y);
+
+
+let x=2, y=6;
+
+function plusl(x) {
+    return x + 1;
+    console.log(plusl);
+};
+
+plusl(y);
+
+let x = 3;
+
+const plus1 = (x) => {
+    if(typeof x === "number") {
+       console.log(x + 1);
+    } else {console.log("Ошибка, нужно число!")};
+};
+plus1(x);
